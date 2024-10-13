@@ -316,7 +316,7 @@ class Ui_MainWindow(object):
 
     def update_weather(self):
         city = self.location.text()  # 도시
-        apiKey = "eb3a3f5257647e4adf2cc4690798b08e"
+        apiKey = "Your API Token"
         lang = 'kr'  # 언어
         units = 'metric'  # 화씨 온도를 섭씨 온도로 변경
         api = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&lang={lang}&units={units}"
